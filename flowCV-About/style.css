@@ -1,0 +1,310 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 238, 235);
+    padding: 15px;
+}
+
+.container {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    /* opacity: 0.7; */
+}
+
+.left {
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 70px;
+    margin: 5px;
+}
+
+.left p {
+    float: right;
+
+}
+
+.img-logo {
+    height: 70px;
+    padding-bottom: 5px;
+}
+
+.right {
+    /* border: 1px solid green; */
+    width: 60%;
+    height: 70px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.right ul {
+    width: 100%;
+    /* border: 1px solid blue; */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right ul li {
+    /* border: 1px solid red; */
+    font-size: 18px;
+    color: #9CA3AF;
+    cursor: pointer;
+
+}
+
+ul li:nth-child(3) {
+    font-size: 19px;
+    color: #6B7280;
+}
+
+ul li:nth-child(4) {
+    width: 160px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: rgb(32, 14, 50);
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    margin-top: 80px;
+    font-size: 55px;
+    padding: 64px 40px 10px;
+}
+
+.main-container {
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding-left: 60px;
+}
+
+.left-para {
+    width: 70%;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.right-img {
+    /* border: 1px solid green; */
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+}
+
+.man-img {
+    width: 35%;
+    height: 30%;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.women-img {
+    width: 35%;
+    height: 30%;
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.left-para p {
+    margin: 30px;
+
+}
+
+.right-img p {
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.name {
+    margin-left: 50px;
+}
+
+.mid-name {
+    text-align: center;
+
+}
+
+h2,
+h3 {
+    font-size: 90px;
+    font-weight: 300;
+}
+
+h2 {
+    padding-right: 150px;
+    /* border: 1px solid blueviolet; */
+}
+
+h3 {
+    margin-left: 70px;
+    /* border: 1px solid red; */
+}
+
+.mid-paragraph {
+    margin-top: 40px;
+}
+
+.mid-paragraph p {
+    /* border: 1px solid red; */
+    width: 90%;
+    font-size: 20px;
+
+    margin-left: 90px;
+    padding: 20px;
+}
+
+.wel-heading {
+    width: 90%;
+    font-size: 20px;
+    margin-left: 110px;
+    font-weight: 900;
+}
+
+.Partners-heading {
+    /* border: 1px solid darkblue; */
+    font-size: 45px;
+    margin-top: 120px;
+    margin-left: 100px;
+
+}
+
+.Partners-heading span p {
+    margin-bottom: 16px;
+}
+
+.partners-para P {
+    /* border: 1px solid darkred; */
+    font-size: 20px;
+    margin-left: 100px;
+    width: 60%;
+    height: 90px;
+    line-height: 30px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.box {
+    /* border: 1px solid darkred; */
+    background-color: rgb(37, 37, 37);
+    color: #eee;
+    width: 176px;
+    height: 176px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.partners-para a {
+    font-size: 20px;
+    margin-left: 100px;
+    width: 60%;
+    height: 90px;
+    color: rgb(26, 18, 18);
+    line-height: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*     zolliway    */
+
+.zolliway-img {
+    /* border: 1px solid darkred; */
+    width: 240px;
+    background-size: cover;
+    height: 55px;
+    margin-top: 100px;
+    margin-left: 110px;
+}
+
+.zolliway-logo p {
+    /* border: 1px solid darkred;  */
+    font-size: 20px;
+    width: 500px;
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 110px;
+    line-height: 35px;
+
+}
+
+.zolliway-logo a {
+    font-size: 20px;
+    margin-left: 100px;
+    color: rgb(26, 18, 18);
+
+}
+
+/* footer        */
+
+.footer {
+    /* border: 1px solid darkred;  */
+    width: 100%;
+    height: 1200px;
+    margin-top: 120px;
+    background-color: rgb(32, 14, 50);
+}
+
+.footer h2 {
+    font-size: 36px;
+    margin-left: 56px;
+    padding-top: 30px;
+    color: white;
+}
+
+.feedback {
+    /* border: 2px solid white;  */
+    width: 720px;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+input {
+    border-radius: 15px;
+    width: 720px;
+    height: 150px;
+    background-color: rgb(32, 14, 50);
+    font-size: 15px;
+    color: white;
+
+}
+
+.footer-img-logo {
+    width: 160px;
+    height: 60px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.footer-img p {
+    /* border: 2px solid white; */
+    width: 450px;
+    height: 120px;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 70px;
+    line-height: 25px;
+}
