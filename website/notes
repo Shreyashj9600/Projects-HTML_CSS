@@ -1,0 +1,155 @@
+.navbar  {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+}
+ul {
+    border: 2px solid thistle;
+    list-style: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+///////////////////
+
+
+
+<div class="footer-no">
+                <ul>
+                    <li>50+</li>
+                    <li>73%</li>
+                    <li>0.03</li>
+                    <li>$9</li>
+                </ul>
+            </div>
+
+
+
+
+
+
+
+.cart-main-container {
+    border: 1px solid red;
+    margin: 60px 40px 50px 40px;
+    
+}
+.cart-1 {
+    border: 1px solid darkblue;
+    width: 354px;
+    height: 416px;
+    text-align: center;
+    padding: 60px 40px 0px 40px;
+}
+.cart-mid-heading h3 {
+font-size: 24px;
+padding-top: 35px; 
+}
+.cart-mid-heading p {
+    font-size: 20px;
+    padding-top: 25px;
+} 
+.second-hr {
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .about-section-ul {
+      display: none;
+    }
+  
+    .mid-main-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .mid-infom {
+      flex-direction: column;
+  
+    }
+  
+    .chakra-text {
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+    }
+  
+    .mid-img {
+      display: none;
+    }
+  
+    .cart-main-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+    }
+  
+    .main-heading {
+      text-align: center;
+  
+    }
+  
+    .main-heading-tex {
+      font-size: 10px;
+    }
+  
+    .inciderint-main-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .footer {
+      display: flex;
+      flex-direction: column;
+  
+    }
+  
+    .footer-main-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      overflow: hidden;
+  
+    }
+  
+    .footer-numbers {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      overflow: hidden;
+  
+    }
+  
+    .footer-text {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+  
+    .footer-para {
+      overflow: hidden;
+      width: 100%;
+      height: 150px;
+    }
+  
+  }
