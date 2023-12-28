@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sofia+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(255, 123, 123), rgb(196, 0, 0));
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading {
+    color: #fff;
+    font-size: 15rem;
+    text-align: center;
+    font-family: 'Sofia Sans', sans-serif;
+}
+.heading:hover{
+    color: yellow;
+    transition: 2s;
+        
+}
+
+.sub-heading {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+article {
+    width: 80%;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid #035B7D;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #035B7D;
+}
+
+.active {
+    color: white;
+    background-color: #035B7D;
+}
+
+.active:hover {
+    color: #035B7D;
+    background-color: transparent;
+    border: 3px solid #035B7D;
+}
+
